@@ -1,0 +1,156 @@
+﻿@{
+    ViewBag.Title = "Galactic Puffin";
+}
+
+
+
+<div class="text-center">
+    <div class="uhf-container">
+
+        <div class="row">
+
+
+            <div class="w3-sidebar w3-bar-block desktop" style="width:250px">
+                <h3 class="w3-bar-item  service-menu-title tablink" onclick="openLink(event, 'Summary')">Accomplished Projects</h3>
+                <button class="w3-bar-item w3-button tablink service-menu-content" onclick="openLink(event, 'ED')">Economic Dashboard</button>
+                <button class="w3-bar-item w3-button tablink service-menu-content" onclick="openLink(event, 'MP')">Alberta Major Project</button>
+                <button class="w3-bar-item w3-button tablink service-menu-content" onclick="openLink(event, 'ARD')">Alberta Regional Dashboard</button>
+                <button class="w3-bar-item w3-button tablink service-menu-content" onclick="openLink(event, 'BP')">Invest Alberta</button>
+               
+            </div>
+
+            <div class="service-content-div" style="">
+                <div id="Summary" class="w3-container city w3-animate-opacity desktop" style="">
+                    <h3 class="service-header" style=" ">
+                        We Successfully delivered(TODO)
+                    </h3>
+                    <div class="col-md-6 col-sm-12">
+                        <p class="service-content"> ARD, ED, MP </p>
+                        <p class="service-content">The metrics include historical time series charts that visually show performance over many years. The data interval are reported on monthly and quarterly basis. This user-friendly, online tool translates to mobile devices and allows for easy, on-the-go access to valuable business information. </p>
+                        <p class="service-content">For more information about Economic Dashboard, please go to <a href="https://economicdashboard.alberta.ca/">https://economicdashboard.alberta.ca/</a></p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card-image">
+                            <a href="https://economicdashboard.alberta.ca/">
+                                <div class="tile1imageDiv">
+                                    @{
+                                        <img id="1" src='/images/ed.jpg' alt="" class="img_resize_fit_center">
+                                    }
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="ED" onclick="openLink(event, 'ED'); return false;" class="w3-container city w3-animate-opacity mobile" style="">
+                    <h3 class="service-header" style=" ">
+                        Economic Dashboard
+                    </h3>
+                    <div class="col-md-6 col-sm-12">
+                        <p class="service-content">The Economic Dashboard application displays 33 individual economic metrics specific to the Alberta Economy. </p>
+                        <p class="service-content">The metrics include historical time series charts that visually show performance over many years. The data interval are reported on monthly and quarterly basis. This user-friendly, online tool translates to mobile devices and allows for easy, on-the-go access to valuable business information. </p>
+                        <p class="service-content">For more information about Economic Dashboard, please go to <a href="https://economicdashboard.alberta.ca/">https://economicdashboard.alberta.ca/</a></p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card-image">
+                            <a href="https://economicdashboard.alberta.ca/">
+                                <div class="tile1imageDiv">
+                                    @{
+                                        <img id="1" src='/images/ed.jpg' alt="" class="img_resize_fit_center">
+                                    }
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="MP" class="w3-container city w3-animate-opacity mobile" style="">
+                    <h3 class="service-header" style=" ">
+                        Alberta Major Projects
+                    </h3>
+                    <div class="col-md-6 col-sm-12">
+                        <p class="service-content">The Major Projects application contains information on major projects and industry projects with budgets greater than or equal to five million. </p>
+                        <p class="service-content">Alberta Major Project data is being collected and provided today by the business team within the Economic Development, Trade and Tourism (EDTT) Ministry. The current process for managing data within the Major Projects Map enables the business clients to manage, preview and publish the data via a self-serve interface. </p>
+                        <p class="service-content">For more information about Alberta Major Projects, please go to <a href="https://majorprojects.alberta.ca/">https://majorprojects.alberta.ca/</a></p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card-image">
+                            <a href="https://majorprojects.alberta.ca/">
+                                <div class="tile1imageDiv">
+                                    @{
+                                        <img id="1" src='/images/mp.jpg' alt="" class="img_resize_fit_center">
+                                    }
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="ARD" class="w3-container city w3-animate-opacity mobile" style="">
+                    <h3 class="service-header" style=" ">
+                        Alberta Regional Dashboard
+                    </h3>
+                    <div class="col-md-6 col-sm-12">
+                        <p class="service-content">The Alberta Regional Dashboard (ARD) is a comprehensive system to ingest, validate, analyze and visualize data for Alberta municipalities. </p>
+                        <p class="service-content">It is built based on an Information Management Framework serving data through a web services model to a custom-built web front end. The framework will allow to efficiently consume existing indicators and add new indicators while the custom-built front end provides ultimate flexibility to implement features as required. </p>
+                        <p class="service-content">For more information about ARD, please go to <a href="https://regionaldashboard.alberta.ca/">https://regionaldashboard.alberta.ca/</a></p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card-image">
+                            <a href="https://regionaldashboard.alberta.ca/">
+                                <div class="tile1imageDiv">
+                                    @{
+                                        <img id="1" src='/images/ard.jpg' alt="" class="img_resize_fit_center">
+                                    }
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="BP" class="w3-container city w3-animate-opacity mobile" style="">
+                    <h3 class="service-header" style=" ">
+                        Invest Alberta
+                    </h3>
+                    <div class="col-md-6 col-sm-12">
+                        <p class="service-content">Business Portal or Invest Alberta is the flagship website for economic development in the province. It caters to the needs of Alberta businesses with high-value information to help businesses and investors make better decisions to diversify our economy.  </p>
+                        <p class="service-content">The application provides the global investors a chance to access the detail information about the Alberta Investment potency and opportunity. Invest Alberta is a one-stop government connection website to doing business in Alberta. It provides centralized, coordinated service information to support foreign investors. </p>
+                        <p class="service-content">For more information about Business Portal or Invest Alberta, please go to <a href="https://investalberta.ca/">https://investalberta.ca/</a></p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card-image">
+                            <a href="https://investalberta.ca/">
+                                <div class="tile1imageDiv">
+                                    @{
+                                        <img id="1" src='/images/bp.jpg' alt="" class="img_resize_fit_center">
+                                    }
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <script>
+                function openLink(evt, animName) {
+                  var i, x, tablinks;
+                  x = document.getElementsByClassName("city");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                  }
+                  tablinks = document.getElementsByClassName("tablink");
+                  for (i = 0; i < x.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" w3-blue", "");
+                  }
+                  document.getElementById(animName).style.display = "block";
+                  evt.currentTarget.className += " w3-blue";
+                }
+            </script>
+
+        </div>
+      
+    </div>
+</div>

@@ -1,0 +1,172 @@
+﻿@{
+    ViewBag.Title = "Galactic Puffin";
+}
+
+
+<div class="row">
+    <div class="w3-content" style="max-width:100%">
+        <div class="one-time">
+            @*<div> <img class="mySlides" src="~/images/banner-1.jpg" style="width:100%"></div>*@
+            <div>
+                <img class="mySlides" src="~/images/banner-2.jpg" style="width:100%">
+            </div>
+            @*<div> <img class="mySlides" src="~/images/b-3.png" style="width:100%;max-height:200px"></div>*@
+            <div> <img class="mySlides" src="~/images/b-4.png" style="width:100%"></div>
+            @*<div> <img class="mySlides" src="~/images/b-5.png" style="width:100%"></div>*@
+        </div>
+    </div>
+
+</div>
+<div class="text-center">
+    <div class="uhf-container">
+
+        <div class="row">
+
+            <div class="row justify-content-center mb-4">
+                <div class="col-sm-8 col-xl-6 area-div">
+                    <h1 class="h1">IT Services</h1>
+                    <p style="    font-size: 18px;">
+                        Blocks smart speakers from listening, while keeping them voice-activated. Just say <strong>"Paranoid"</strong> before your usual commands.
+                    </p>
+                </div>
+            </div>
+
+            <div id="ED" class="col-lg-4 col-md-4 col-sm-4 col-xs-6 tile1">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="/service">
+                            <div class="tile1imageDiv">
+                                @{
+                                    // var src = "/images/ED.JPG";
+                                    <img id="1" src='/images/ed.JPG' alt="" class="img_resize_fit_center">
+                                }
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-title"> <a>Economic Dashboard</a></h2>
+                        <h5 class="card-detail"> <a>The Economic Dashboard application displays 33 individual economic metrics specific to the Alberta Economy. </a></h5>
+                        <h5 class="card-more"> <a href="/service">More..</a></h5>
+                    </div>
+                </div>
+            </div>
+
+            <div id="MP" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 tile1">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="/service">
+
+                            <div class="tile1imageDiv">
+                                @{
+                                    <img id="1" src='/images/mp.JPG' alt="" class="img_resize_fit_center">
+                                }
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-title"> <a>Alberta Major Projects</a></h2>
+                        <h5 class="card-detail"> <a>The Alberta Major Projects application contains information on major projects and industry projects with budgets greater than or equal to five million. </a></h5>
+                        <h5 class="card-more"> <a href="/service">More..</a></h5>
+                    </div>
+                </div>
+            </div>
+
+            <div id="ARD" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 tile1">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="/service">
+                            <div class="tile1imageDiv">
+                                @{
+                                    <img id="1" src='/images/ard.jpg' alt="" class="img_resize_fit_center">
+                                }
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-title"> <a>Alberta Regional Dashboard</a></h2>
+                        <h5 class="card-detail"> <a>The Alberta Regional Dashboard (ARD) is a comprehensive system to ingest, validate, analyze and visualize data for Alberta municipalities . </a></h5>
+                        <h5 class="card-more"> <a href="/service">More..</a></h5>
+                    </div>
+                </div>
+            </div>
+
+            <div id="BP" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 tile1">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="/service">
+                            <div class="tile1imageDiv">
+                                @{
+                                    <img id="1" src='/images/bp.jpg' alt="" class="img_resize_fit_center">
+                                }
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-title"> <a>Invest Alberta</a></h2>
+                        <h5 class="card-detail"> <a>Business Portal or Invest Alberta is the flagship website for economic development in the province to cater the needs of Alberta businesses with high-value information.</a></h5>
+                        <h5 class="card-more"> <a href="/service">More..</a></h5>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="row justify-content-center mb-4">
+                <div class="col-sm-8 col-xl-6 area-div">
+                    <h1 class="h1">Apps powder by Galactic Puffin Lab</h1>
+                    <p style="    font-size: 18px;">
+                        Blocks smart speakers from listening, while keeping them voice-activated. Just say <strong>"Paranoid"</strong> before your usual commands.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 tile1">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="/images/ED.JPG">
+
+                            <div class="tile1imageDiv">
+                                @{
+                                    // var src = "/images/ED.JPG";
+                                    <img id="1" src='/images/ard1.JPG' alt="" class="img_resize_fit_center">
+                                }
+                            </div>
+                        </a>
+
+                        @*<h5 style="min-height:30px;"><a href="/i/@Model.Code">@Model.ChineseName </a></h5>*@
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-title"> <a>Economic Dashboard</a></h2>
+                        <h5 class="card-detail"> <a>The Economic Dashboard application displays 33 individual economic metrics specific to the Alberta Economy. </a></h5>
+                        <h5 class="card-more"> <a href="/images/ED.JPG">More..</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 tile1">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="/images/ED.JPG">
+
+                            <div class="tile1imageDiv">
+                                @{
+                                    // var src = "/images/ED.JPG";
+                                    <img id="1" src='/images/ard.JPG' alt="" class="img_resize_fit_center">
+                                }
+                            </div>
+                        </a>
+
+                        @*<h5 style="min-height:30px;"><a href="/i/@Model.Code">@Model.ChineseName </a></h5>*@
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-title"> <a>Economic Dashboard</a></h2>
+                        <h5 class="card-detail"> <a>The Economic Dashboard application displays 33 individual economic metrics specific to the Alberta Economy. </a></h5>
+                        <h5 class="card-more"> <a href="/images/ED.JPG">More..</a></h5>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>

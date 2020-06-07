@@ -1,0 +1,112 @@
+﻿@{
+    ViewBag.Title = "Galactic Puffin";
+}
+
+
+
+<div class="text-center">
+    <div class="uhf-container">
+
+        <div class="row">
+
+
+            <div class="w3-sidebar w3-bar-block desktop" style="width:250px">
+                <h3 class="w3-bar-item  service-menu-title tablink" onclick="openLink(event, 'Summary')">Accomplished Projects</h3>
+                <button class="w3-bar-item w3-button tablink service-menu-content" onclick="openLink(event, 'KitchenTimer')">Kitchen Timer</button>
+                <button class="w3-bar-item w3-button tablink service-menu-content" onclick="openLink(event, 'MortgageDeferralCalculator')">Mortgage Deferral Calculator</button>
+                             
+            </div>
+
+            <div class="service-content-div" style="">
+                <div id="Summary" class="w3-container city w3-animate-opacity desktop" style="">
+                    <h3 class="app-header" style=" ">
+                        We Successfully delivered apps(TODO)
+                    </h3>
+                    <div class="col-md-6 col-sm-12">
+                        <p class="service-content"> ********** </p>
+                        <p class="service-content">The metrics include historical time series charts that visually show performance over many years. The data interval are reported on monthly and quarterly basis. This user-friendly, online tool translates to mobile devices and allows for easy, on-the-go access to valuable business information. </p>
+                        <p class="service-content">For more information about Economic Dashboard, please go to <a href="https://economicdashboard.alberta.ca/">https://economicdashboard.alberta.ca/</a></p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card-image">
+                            <a href="https://economicdashboard.alberta.ca/">
+                                <div class="tile1imageDiv">
+                                    @{
+                                        <img id="1" src='/images/ed.jpg' alt="" class="img_resize_fit_center">
+                                    }
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="KitchenTimer" class="w3-container city w3-animate-opacity mobile" style="">
+                    <h3 class="service-header" style=" ">
+                        Kitchen Timer
+                    </h3>
+                    <div class="col-md-6 col-sm-12">
+                        <p class="service-content">The Economic Dashboard application displays 33 individual economic metrics specific to the Alberta Economy. </p>
+                        <p class="service-content">The metrics include historical time series charts that visually show performance over many years. The data interval are reported on monthly and quarterly basis. This user-friendly, online tool translates to mobile devices and allows for easy, on-the-go access to valuable business information. </p>
+                        <p class="service-content">For more information about Economic Dashboard, please go to <a href="https://economicdashboard.alberta.ca/">https://economicdashboard.alberta.ca/</a></p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card-image">
+                            <a href="https://economicdashboard.alberta.ca/">
+                                <div class="tile1imageDiv">
+                                    @{
+                                        <img id="1" src='/images/ed.jpg' alt="" class="img_resize_fit_center">
+                                    }
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="MortgageDeferralCalculator" class="w3-container city w3-animate-opacity mobile" style="">
+                    <h3 class="service-header" style=" ">
+                        Mortgage Deferral Calculator
+                    </h3>
+                    <div class="col-md-6 col-sm-12">
+                        <p class="service-content">The Major Projects application contains information on major projects and industry projects with budgets greater than or equal to five million. </p>
+                        <p class="service-content">Alberta Major Project data is being collected and provided today by the business team within the Economic Development, Trade and Tourism (EDTT) Ministry. The current process for managing data within the Major Projects Map enables the business clients to manage, preview and publish the data via a self-serve interface. </p>
+                        <p class="service-content">For more information about Alberta Major Projects, please go to <a href="https://majorprojects.alberta.ca/">https://majorprojects.alberta.ca/</a></p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card-image">
+                            <a href="https://majorprojects.alberta.ca/">
+                                <div class="tile1imageDiv">
+                                    @{
+                                        <img id="1" src='/images/mp.jpg' alt="" class="img_resize_fit_center">
+                                    }
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+              
+
+
+
+            </div>
+
+            <script>
+                function openLink(evt, animName) {
+                  var i, x, tablinks;
+                  x = document.getElementsByClassName("city");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                  }
+                  tablinks = document.getElementsByClassName("tablink");
+                  for (i = 0; i < x.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" w3-blue", "");
+                  }
+                  document.getElementById(animName).style.display = "block";
+                  evt.currentTarget.className += " w3-blue";
+                }
+            </script>
+
+        </div>
+      
+    </div>
+</div>
