@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Galactic Puffin";
+    ViewBag.Title = "App - Galactic Puffin";
 }
 
 
@@ -45,16 +45,31 @@
                         Kitchen Timer
                     </h3>
                     <div class="col-md-6 col-sm-12">
-                        <p class="service-content">The Economic Dashboard application displays 33 individual economic metrics specific to the Alberta Economy. </p>
-                        <p class="service-content">The metrics include historical time series charts that visually show performance over many years. The data interval are reported on monthly and quarterly basis. This user-friendly, online tool translates to mobile devices and allows for easy, on-the-go access to valuable business information. </p>
-                        <p class="service-content">For more information about Economic Dashboard, please go to <a href="https://economicdashboard.alberta.ca/">https://economicdashboard.alberta.ca/</a></p>
+                        @*<p class="service-content">Simulate a kitchen timer in the app.  </p>*@
+                        <p class="service-content">
+                            Kitchen Timer has features below like the real Kitchen timer.<br/>
+                            1.	There is flashing light during countdown showing how long time left.<br />
+                            2.	Ability to turn on or off Millisecond display.<br />
+                            3.	Timer can running in the background and can notify user when the countdown completed.<br />
+                            4.	Large display with Maximum countdown 59 minutes and 59 seconds.<br />
+                            5.	After the countdown is completed, there is a sound of 5 seconds of sounding. You can enable or disable sound alarm function.<br />
+                        </p>
+                        <p class="service-content">
+                            For more information about this app, please get it from
+                            <div class="col-md-12 col-sm-12">
+                                @*<a href="https://play.google.com/store/apps/details?id=com.galacticpuffin.kitchentimer" class="svg" target="_blank"><img id="1" style="width:153px;height:46px" src='/images/google-play-badge.png' alt="" class="img_resize_fit_center"></a>*@
+
+                                <a href="https://play.google.com/store/apps/details?id=com.galacticpuffin.kitchentimer" target="_blank"><img id="1" style="width:153px;height:46px" src='/images/google-play-badge.png' alt="" class="img_resize_fit_center"></a>
+
+                            </div>
+                        </p>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="card-image">
-                            <a href="https://economicdashboard.alberta.ca/">
-                                <div class="tile1imageDiv">
+                            <a href="">
+                                <div class="detailimageDiv">
                                     @{
-                                        <img id="1" src='/images/ed.jpg' alt="" class="img_resize_fit_center">
+                                        <img id="1" src='/images/Kitchentimer.png' alt="" class="img_resize_fit_center">
                                     }
                                 </div>
                             </a>
@@ -67,16 +82,29 @@
                         Mortgage Deferral Calculator
                     </h3>
                     <div class="col-md-6 col-sm-12">
-                        <p class="service-content">The Major Projects application contains information on major projects and industry projects with budgets greater than or equal to five million. </p>
-                        <p class="service-content">Alberta Major Project data is being collected and provided today by the business team within the Economic Development, Trade and Tourism (EDTT) Ministry. The current process for managing data within the Major Projects Map enables the business clients to manage, preview and publish the data via a self-serve interface. </p>
-                        <p class="service-content">For more information about Alberta Major Projects, please go to <a href="https://majorprojects.alberta.ca/">https://majorprojects.alberta.ca/</a></p>
+                        @*<p class="service-content">The Major Projects application contains information on major projects and industry projects with budgets greater than or equal to five million. </p>*@
+                        <p class="service-content">
+                            Through Mortgage Deferral Calculator,  you can know how much money you can saved during the deferral period. Also you have to know how much money and how many amortizations you have to pay more.
+                            Compare the two options to get what you should do after deferral period.<br />
+                            1. You can pay more monthly payment to remain the same amortization you should pay.<br />
+                            2. You can pay the same monthly payment as usual but you will pay more amortizations.<br />
+                        </p>
+                        <p class="service-content">
+                            For more information about this app, please get it from
+                            <div class="col-md-12 col-sm-12">
+                                @*<a href="https://play.google.com/store/apps/details?id=com.galacticpuffin.kitchentimer" class="svg" target="_blank"><img id="1" style="width:153px;height:46px" src='/images/google-play-badge.png' alt="" class="img_resize_fit_center"></a>*@
+
+                                <a href="https://play.google.com/store/apps/details?id=com.galacticpuffin.pmdc" target="_blank"><img id="1" style="width:153px;height:46px" src='/images/google-play-badge.png' alt="" class="img_resize_fit_center"></a>
+
+                            </div>
+                        </p>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="card-image">
-                            <a href="https://majorprojects.alberta.ca/">
-                                <div class="tile1imageDiv">
+                            <a href="">
+                                <div class="detailimageDiv">
                                     @{
-                                        <img id="1" src='/images/mp.jpg' alt="" class="img_resize_fit_center">
+                                        <img id="1" src='/images/defercalc.png' alt="" class="img_resize_fit_center">
                                     }
                                 </div>
                             </a>
