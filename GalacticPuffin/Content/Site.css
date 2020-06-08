@@ -112,7 +112,7 @@ body {
         color: gray;
     }
     .logo span {
-        background-image: url(../image/amanita-design-logo.png);
+        background-image: url(../images/page-header.jpg);
         background-position: left top;
         background-repeat: no-repeat;
         cursor: pointer;
