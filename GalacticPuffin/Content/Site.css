@@ -65,7 +65,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 40px;
-    font-family: Calibri;
+    font-family: Atto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Franklin Gothic,Roboto,sans-serif;
     font-size: 12px;
     font-size: .75rem;
     /*color: #b9b8b5;*/
@@ -192,7 +192,7 @@ body {
 }
     .tile1 .card {
         margin: 5px;
-        height: 450px;
+        height: 465px;
         position: relative;
         box-shadow: 1px 2px 4px rgba(0,0,0,.16), 1px 2px 4px rgba(0,0,0,.23);
         overflow: hidden;
