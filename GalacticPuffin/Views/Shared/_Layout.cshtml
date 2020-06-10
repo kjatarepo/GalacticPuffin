@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -17,7 +17,7 @@
 <body>
 
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 navbar-fixed">
-      
+
         <div class="container">
             <div id="logo" class="logo">
                 <a class="current" href="\"><span> </span></a>
@@ -64,39 +64,48 @@
             </div>
         </div>
     </nav>
-   
+
     <div class="container body-content">
         @RenderBody()
         @*<hr />*@
 
-    </div> 
-               
+    </div>
+
     <div id="wrap-footer" class="wrap-footer">
-                    <div id="footer" class="footer">
-                        <div class="copyright">
-                            
-                            <span>Copyright ©  Galactic Puffin All Rights Reserved.</span>
-                            <a href="@Url.Action("privacy", "home")" class="privacy">
-                                Privacy Policy
-                            </a>
+        <div id="footer" class="footer">
+            <div class="copyright">
 
-                            @*<a class="divided" href="videopolicy.html">Video Policy</a>*@
-                            @*<a class="divided" href="https://www.facebook.com/Amanita.Design">Facebook</a>
-        <a class="divided" href="https://www.instagram.com/amanita_design_">Instagram</a>
-        <a class="divided" href="https://twitter.com/Amanita_Design">Twitter</a>
-        <a class="divided" href="https://discord.gg/Gr4Ec6K">Discord</a>
-        <a class="divided" href="https://www.youtube.com/user/jdamanita">YouTube</a>*@
-                        </div>
-                      
-                    </div>
-                    <!-- /footer -->
-                </div>
-                @*<p>&copy; @DateTime.Now.Year - Galactic Puffin</p>*@
-           
-    
+                <span>Copyright ©  Galactic Puffin All Rights Reserved.</span>
+                <a href="@Url.Action("privacy", "home")" class="privacy">
+                    Privacy Policy
+                </a>
 
-        @Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/bootstrap")
-        @RenderSection("scripts", required: false)
+                @*<a class="divided" href="videopolicy.html">Video Policy</a>*@
+                @*<a class="divided" href="https://www.facebook.com/Amanita.Design">Facebook</a>
+                    <a class="divided" href="https://www.instagram.com/amanita_design_">Instagram</a>
+                    <a class="divided" href="https://twitter.com/Amanita_Design">Twitter</a>
+                    <a class="divided" href="https://discord.gg/Gr4Ec6K">Discord</a>
+                    <a class="divided" href="https://www.youtube.com/user/jdamanita">YouTube</a>*@
+            </div>
+
+        </div>
+        <!-- /footer -->
+    </div>
+    @*<p>&copy; @DateTime.Now.Year - Galactic Puffin</p>*@
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
 </body>
 </html>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152975706-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-152975706-1');
+</script>

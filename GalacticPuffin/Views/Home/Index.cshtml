@@ -3,7 +3,7 @@ ViewBag.Title = "Galactic Puffin";
 }
 
 
-<div class="row">
+<div class="">
     <div class="w3-content" style="max-width:100%">
         <div class="one-time">
             @*<div> <img class="mySlides" src="~/images/banner-1.jpg" style="width:100%"></div>*@
@@ -31,7 +31,7 @@ ViewBag.Title = "Galactic Puffin";
                 </div>
             </div>
 
-            <div id="ED" class="col-lg-4 col-md-4 col-sm-4 col-xs-6 tile1">
+            <div id="ED" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 tile1">
                 <div class="card">
                     <div class="card-image">
                         <a href="/service">
@@ -116,57 +116,59 @@ ViewBag.Title = "Galactic Puffin";
                 <div class="col-sm-8 col-xl-6 area-div">
                     <h1 class="h1">Apps powder by Galactic Puffin Lab</h1>
                     <p style="    font-size: 18px;">
-                       A small team focus on the new technology and innovation for small mobile apps<br /> <strong>Trends</strong> and <strong>Ideas</strong>
+                        A small team focus on the new technology and innovation for small mobile apps<br /> <strong>Trends</strong> and <strong>Ideas</strong>
                     </p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 tile1">
-                <div class="card">
-                    <div class="card-image">
-                        <a href="/app">
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 tile1">
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="/app">
 
-                            <div class="tile1imageDiv">
-                                @{
-                                    // var src = "/images/ED.JPG";
-                                    <img id="1" src='/images/Kitchentimer.png' alt="" class="img_resize_fit_center">
-                                }
-                            </div>
-                        </a>
+                                <div class="tile1imageDiv">
+                                    @{
+                                        // var src = "/images/ED.JPG";
+                                        <img id="1" src='/images/Kitchentimer.png' alt="" class="img_resize_fit_center">
+                                    }
+                                </div>
+                            </a>
 
-                        @*<h5 style="min-height:30px;"><a href="/i/@Model.Code">@Model.ChineseName </a></h5>*@
-                    </div>
-                    <div class="card-content">
-                        <h2 class="card-title"> <a>Kitchen Timer</a></h2>
-                        <h5 class="card-detail"> <a>Simulate kitchen timer. </a></h5>
-                        <h5 class="card-more"> <a href="/app">More..</a></h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 tile1">
-                <div class="card">
-                    <div class="card-image">
-                        <a href="/app">
-
-                            <div class="tile1imageDiv">
-                                @{
-                                    // var src = "/images/ED.JPG";
-                                    <img id="1" src='/images/defercalc.png' alt="" class="img_resize_fit_center">
-                                }
-                            </div>
-                        </a>
-
-                        @*<h5 style="min-height:30px;"><a href="/i/@Model.Code">@Model.ChineseName </a></h5>*@
-                    </div>
-                    <div class="card-content">
-                        <h2 class="card-title"> <a>Mortgage Deferral Calculator</a></h2>
-                        <h5 class="card-detail"> <a>A app to calculate your mortgage deferral cost. </a></h5>
-                        <h5 class="card-more"> <a href="/app">More..</a></h5>
+                            @*<h5 style="min-height:30px;"><a href="/i/@Model.Code">@Model.ChineseName </a></h5>*@
+                        </div>
+                        <div class="card-content">
+                            <h2 class="card-title"> <a>Kitchen Timer</a></h2>
+                            <h5 class="card-detail"> <a>Simulate kitchen timer. </a></h5>
+                            <h5 class="card-more"> <a href="/app">More..</a></h5>
+                        </div>
                     </div>
                 </div>
             </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 tile1">
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="/app">
+
+                                <div class="tile1imageDiv">
+                                    @{
+                                        // var src = "/images/ED.JPG";
+                                        <img id="1" src='/images/defercalc.png' alt="" class="img_resize_fit_center">
+                                    }
+                                </div>
+                            </a>
+
+                            @*<h5 style="min-height:30px;"><a href="/i/@Model.Code">@Model.ChineseName </a></h5>*@
+                        </div>
+                        <div class="card-content">
+                            <h2 class="card-title"> <a>Mortgage Deferral Calculator</a></h2>
+                            <h5 class="card-detail"> <a>A app to calculate your mortgage deferral cost. </a></h5>
+                            <h5 class="card-more"> <a href="/app">More..</a></h5>
+                        </div>
+                    </div>
+                </div>
 
 
 
+            </div>
         </div>
-    </div>
 </div>
