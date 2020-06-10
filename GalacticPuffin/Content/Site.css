@@ -100,11 +100,11 @@ body {
     margin-left: 10px;
     overflow: hidden;
     padding: 0;
-    width:200px;
+    /*width:200px;*/
 }
     .logo a {
         display: block;
-        width: 220px;
+        width: 320px;
         height: 60px;
         overflow: hidden;
         position: relative;
@@ -112,7 +112,7 @@ body {
         color: gray;
     }
     .logo span {
-        background-image: url(../images/page-header.jpg);
+        background-image: url(../images/page-header.PNG);
         background-position: left top;
         background-repeat: no-repeat;
         cursor: pointer;

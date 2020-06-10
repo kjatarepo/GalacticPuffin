@@ -148,6 +148,7 @@
     <Content Include="images\Kitchentimer.png" />
     <Content Include="images\mp.JPG" />
     <Content Include="images\page-header.jpg" />
+    <Content Include="images\page-header.png" />
     <Content Include="images\sampletile.jpg" />
     <Content Include="images\service-summary.jpg" />
     <Content Include="images\site-raw.jpg" />
